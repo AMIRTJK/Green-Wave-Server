@@ -1,3 +1,9 @@
+// jsharipovamir@gmail.com:
+// re_YMWcQ5v1_3LdUaGdaiDmcSVhv2QG7PXG2
+
+// mavjisabz@gmail.com:
+// re_giQh3bsx_AZHp6RRZoB2nWjeLLXVHQNsm
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const axios = require("axios");
@@ -19,7 +25,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 // API_KEY для Resend
-const API_KEY = "re_YMWcQ5v1_3LdUaGdaiDmcSVhv2QG7PXG2";
+const API_KEY = "re_giQh3bsx_AZHp6RRZoB2nWjeLLXVHQNsm";
 const RESEND_URL = "https://api.resend.com/emails";
 
 app.post("/api/email", async (req, res) => {
