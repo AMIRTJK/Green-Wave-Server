@@ -33,7 +33,7 @@ app.post("/api/email", async (req, res) => {
       RESEND_URL,
       {
         from: "onboarding@resend.dev",
-        to: "mavjisabz@gmail.com",
+        to: "jsharipovamir@gmail.com",
         subject: "Новая заявка на проект Мавчи Сабз",
         html: `
           <p>Поступила новая заявка от потенциального участника. Ниже приведены данные, предоставленные заявителем:</p>
