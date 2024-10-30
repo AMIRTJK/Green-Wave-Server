@@ -21,6 +21,7 @@ const corsOptions = {
   ], // Добавьте URL вашего клиентского приложения на GitHub Pages
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Content-Type,Authorization",
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
