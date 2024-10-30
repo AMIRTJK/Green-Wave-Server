@@ -14,7 +14,11 @@ const PORT = 4000;
 
 // Настройка CORS
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://amirtjk.github.io"], // Добавьте URL вашего клиентского приложения на GitHub Pages
+  origin: [
+    "http://localhost:5173",
+    "https://amirtjk.github.io",
+    "https://mavjisabz.com",
+  ], // Добавьте URL вашего клиентского приложения на GitHub Pages
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Content-Type,Authorization",
 };
